@@ -20,5 +20,6 @@ WORKDIR /code
 
 # 安装支持
 RUN pip3 install -r requirements.txt
+RUN pip3 install --upgrade setuptools
 
 CMD ["bash"]
