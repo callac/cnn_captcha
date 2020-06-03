@@ -19,6 +19,6 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 
 # 安装支持
-#RUN pip3 install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
-CMD ["bash"]
+CMD ["/bin/sh"]
